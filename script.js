@@ -2,7 +2,7 @@ const form = document.getElementById("chat-form");
 const input = document.getElementById("user-input");
 const chatBox = document.getElementById("chat-box");
 
-const API_URL = "https://fitness-chatbot-backend.onrender.com/chat"; // Change this if needed
+const API_URL = "https://fitness-bot-dw5s.onrender.com"; // Change this if needed
 
 function appendMessage(text, sender) {
   const msg = document.createElement("div");
